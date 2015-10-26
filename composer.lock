@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "bc67b926e2907aa2904242e66cf59850",
+    "content-hash": "2e92a4c92aa983400d4c80aac4e90216",
+    "packages": [
+        {
+            "name": "jenssegers/optimus",
+            "version": "v0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jenssegers/optimus.git",
+                "reference": "4e407c4751435df695dc24418d0f61b829b3046d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jenssegers/optimus/zipball/4e407c4751435df695dc24418d0f61b829b3046d",
+                "reference": "4e407c4751435df695dc24418d0f61b829b3046d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpseclib/phpseclib": "~2.0",
+                "phpunit/phpunit": "~4.6",
+                "satooshi/php-coveralls": "0.6.*",
+                "symfony/console": "~2.6"
+            },
+            "bin": [
+                "optimus"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jenssegers\\Optimus\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jens Segers",
+                    "homepage": "http://jenssegers.be"
+                }
+            ],
+            "description": "Id obfuscation based on Knuth's integer hash method",
+            "homepage": "https://github.com/jenssegers/optimus",
+            "keywords": [
+                "hashids",
+                "id obfuscation",
+                "ids",
+                "obfuscation",
+                "optimus"
+            ],
+            "time": "2015-09-13 08:46:24"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

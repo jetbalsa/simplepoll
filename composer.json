@@ -1,0 +1,5 @@
+{
+    "require": {
+        "jenssegers/optimus": "^0.1.4"
+    }
+}
